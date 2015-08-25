@@ -1,0 +1,52 @@
+body {
+  background:url('imgz/ocean2.jpg') no-repeat center center fixed;
+  height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+  
+}
+.back .container {
+  position: relative;
+  top:100px;
+}
+
+.back h1 {
+  color: #F5A22F;
+  font-size: 67px;  
+  text-align: center;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  margin-top: 200px;
+  position: relative;
+  opacity: 1.0 !important;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-family: 'Sigmar One', cursive;
+}
+
+.blockright {
+	background-color:rgba(0,0,0,0.2);
+    height:370px;
+  	padding-left:12px;
+  	padding-right:12px;
+	max-width: 45%;
+	float:right;
+}
+.blockleft {
+	background-color:rgba(0,0,0,0.2);
+    height:370px;
+  	padding-left:12px;
+  	padding-right:12px;
+	max-width: 45%;
+	float:left;
+}
+#touchuph2 {
+text-align: center;
+font-weight: bold;
+color: #656558;
+  font-family: 'Sigmar One', cursive;
+}
+#touchupp {
+font-family: 'Francois One', sans-serif;
+}
