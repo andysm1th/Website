@@ -26,7 +26,7 @@ body {
 }
 
 .blockright {
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.6);
     height:370px;
   	padding-left:12px;
   	padding-right:12px;
@@ -34,7 +34,7 @@ body {
 	float:right;
 }
 .blockleft {
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.6);
     height:370px;
   	padding-left:12px;
   	padding-right:12px;
