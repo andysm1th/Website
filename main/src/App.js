@@ -7,6 +7,8 @@ import './font-awesome-4.4.0/font-awesome-4.4.0/css/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 </style>
 import FontAwesome from 'react-fontawesome';
+import spaceship from './spaceship.jpg';
+import self from './pic.jpg';
 
 class App extends Component {
   render() {
@@ -15,7 +17,14 @@ class App extends Component {
         <div className="App-header">
           <video className="vid" preload="auto" autoPlay muted loop src ={waves}>
           </video>
-          <h2> Andrew Smith </h2>
+          <h2 className="name"> Andrew Smith </h2>
+          <ul className = "horizontal-list">
+          <li>
+            <div className="self">
+              <img className="myPhoto" src={self} />
+            </div>
+          </li>
+          </ul>
           <div className="flex-container">
             <a href = "https://www.facebook.com/eeandyee">
               <FontAwesome
@@ -38,13 +47,6 @@ class App extends Component {
                 className="instagram"
               />
             </a>
-          </div>
-          <div className="flex-bottom">
-            <FontAwesome
-              name='fa fa-angle-down'
-              size='4x'
-              className='down-arrow'
-            />
           </div>
         </div>
       </div>

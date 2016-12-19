@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -7,24 +8,29 @@
   height: 80px;
 }
 
-h2 {
+.App-header {
+  padding-bottom: 10rem;
+}
+
+.name {
+
   margin: 0px;
   padding: 0px;
+  padding-bottom: 20px;
   display: block;
-  margin-top: 20%;
+  margin-top: 10%;
   font-weight: normal;
   font-family: 'Source Code Pro', monospace;
   font-size: 50px;
   letter-spacing: -1px;
   color: #fff;
   line-height: 24px;
-
 }
 .flex-container{
   display: flex;
   justify-content: center;
   padding: 20px;
-  padding-top: 7rem;
+  padding-top: 4rem;
 }
 .facebook{
   padding: 20px;
@@ -49,24 +55,76 @@ h2 {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
-
+}
+.App-Section {
+  padding-top: 10rem;
 }
 .App-intro {
   font-size: large;
 }
 
 .down-arrow {
-  opacity: 60%;
+  opacity: 0.6;
   color: #eaecef;
 }
+.projects {
+  padding-top: 10px;
+  background-color: black;
+  padding-bottom: 20rem;
+}
 
+.flex-gallery {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  align-content: space-around;
+}
+.myPhoto {
+  width: 25%;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+.ship {
+  width: 25%;
+  opacity: 0.8;
+}
+.projectHeader {
+  font-weight: normal;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 50px;
+  letter-spacing: -1px;
+  color: #fff;
+  line-height: 24px;
+  padding-top: 15rem;
+}
 .flex-bottom {
   display: flex;
   justify-content: center;
-  padding-top: 8rem
+  padding-top: 8rem;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .name {
+      margin-top: 50%;
+    }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .name {
+      margin-top: 40%;
+    }
+}
+.horizontal-list {
+  display: inline;
 }
