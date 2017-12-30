@@ -1,11 +1,11 @@
 body {
-  background:url('imgz/ocean2.jpg') no-repeat center center fixed;
+  background:url('imgz/friendsuppic.jpg') no-repeat center center fixed;
   height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;  
-  
+    background-size: cover;
+
 }
 .back .container {
   position: relative;
@@ -14,11 +14,23 @@ body {
 
 .back h1 {
   color: #F5A22F;
-  font-size: 67px;  
+  font-size: 67px;
   text-align: center;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
-  margin-top: 200px;
+  margin-top: 20rem;
+  position: relative;
+  opacity: 1.0 !important;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-family: 'Sigmar One', cursive;
+}
+
+.back h2{
+  color: #F5A22F;
+  /*font-size: 67px;*/
+  text-align: center;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
   position: relative;
   opacity: 1.0 !important;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
